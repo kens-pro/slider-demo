@@ -63,10 +63,17 @@
 }
 
 .swiper-slide img {
+  object-fit: cover;
+  object-position: center;
+  transform: scale(0.86); /* ← スマホ時に画像を少しだけ縮小！ */
+}
+
+
+.swiper-slide img {
     object-fit: cover;
     object-position: center 40%; /* ← ★ここが追加ポイント！ */
   }
-  
+
   </style>
 </head>
 <body>
